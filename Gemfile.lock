@@ -1,0 +1,37 @@
+GIT
+  remote: https://github.com/dramforever/websocks
+  revision: 52161ae071a335f0ab292978c307031dd8793fed
+  specs:
+    websocks (0.1.0)
+      bindata (~> 2.3.1)
+      em-websocket (~> 0.5.1)
+      eventmachine (~> 1.2.0.1)
+      websocket-eventmachine-client (~> 1.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bindata (2.3.1)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.0.1)
+    http_parser.rb (0.6.0)
+    websocket (1.2.3)
+    websocket-eventmachine-base (1.2.0)
+      eventmachine (~> 1.0)
+      websocket (~> 1.0)
+      websocket-native (~> 1.0)
+    websocket-eventmachine-client (1.1.0)
+      websocket-eventmachine-base (~> 1.0)
+    websocket-native (1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  eventmachine
+  websocks!
+
+BUNDLED WITH
+   1.12.5
