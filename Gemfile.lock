@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/dramforever/websocks
-  revision: 52161ae071a335f0ab292978c307031dd8793fed
+  revision: c3bc946bbcb8fe15443e021418886064182adc11
   specs:
     websocks (0.1.0)
       bindata (~> 2.3.1)
